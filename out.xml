@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <git>
-<commit id=0>
+<commit id="0">
 	<file>.gitattributes</file>
 	<file>.gitignore</file>
 </commit>
-<commit id=1>
+<commit id="1">
 	<file>Character.pde</file>
 	<file>CharacterBody.pde</file>
 	<file>CharacterFactory.pde</file>
@@ -153,5 +153,9 @@
 	<file>data/head_2.png</file>
 	<file>data/head_3.png</file>
 	<file>data/textures.txt</file>
+</commit>
+<commit id="2">
+	<file>gitLogToXML.sh</file>
+	<file>out.xml</file>
 </commit>
 </git>

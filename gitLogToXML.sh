@@ -7,7 +7,9 @@ revlist=$(git rev-list --reverse HEAD)
 	declare -i id=0
 	for rev in $revlist
 	do
-		echo "<commit id=$id>"
+		sid=$id
+		q='"'
+		echo "<commit id=$q$sid$q>"
 
 		files=$(git log -1 --pretty="format:" --name-only $rev)
 		for file in $files
